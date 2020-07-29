@@ -16,9 +16,9 @@ dic = {}
 dic_Qnum = {}
 l = []
 l2 = []
-wb1 = openpyxl.load_workbook("D:/Python project/part2/venv/data/que.xlsx")
+wb1 = openpyxl.load_workbook("D:/Python project/BigCode/part2/data/que.xlsx")
 ws1 = wb1.active
-wb2 = openpyxl.load_workbook("D:/Python project/part2/venv/data/personalAll.xlsx")
+wb2 = openpyxl.load_workbook("D:/Python project/BigCode/part2/data/personalAll.xlsx")
 ws2 = wb2.active
 for row in ws1.iter_rows(min_row=2,values_only=True):
     l.append(row)
